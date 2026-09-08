@@ -1,0 +1,25 @@
+{
+  "name": "yaps-memory",
+  "version": "0.1.0",
+  "description": "Search, cite, and maintain your private local Yaps Markdown vault across tasks. Scoped memory and requested note edits with Yaps Agent Access controls.",
+  "author": {
+    "name": "Yaps AI",
+    "email": "support@yaps.ai"
+  },
+  "homepage": "https://yaps.ai",
+  "repository": "https://github.com/richawo/yaps-cursor-memory",
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "notes",
+    "knowledge-base",
+    "markdown-vault",
+    "local-first",
+    "yaps",
+    "local-first",
+    "mcp"
+  ],
+  "logo": "assets/yaps-icon.png",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}

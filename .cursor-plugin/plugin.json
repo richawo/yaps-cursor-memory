@@ -1,6 +1,6 @@
 {
   "name": "yaps-memory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Search, cite, and maintain your private local Yaps Markdown vault across tasks. Scoped memory and requested note edits with Yaps Agent Access controls.",
   "author": {
     "name": "Yaps AI",

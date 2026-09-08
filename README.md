@@ -7,11 +7,11 @@ One purpose-specific Cursor plugin, with one skill and one local MCP server. Ins
 ## Setup
 
 1. Install [Yaps desktop](https://yaps.ai/download) on this computer and sign in with active desktop access.
-2. Install Node.js 20+ with npm/npx. First launch downloads a small helper package and its JavaScript dependencies from GitHub and npm. Git and a source checkout are not required.
+2. Install Node.js 20+ with npm/npx. First launch downloads a small helper package and its JavaScript dependencies from the npm registry. Git and a source checkout are not required.
 3. Add this repository as a Cursor plugin, or use its Cursor Directory components. A directory MCP install button installs the server configuration; add the skill separately when using that component flow.
 4. Enable Cursor in Yaps Settings > Agent Access. Read and write permissions are separate and are never silently enabled. Call vault_status to check the connection.
 
-The runtime is pinned to [189945737dce216c3d8112e86aa4da37786275df](https://github.com/richawo/yaps-plugins/commit/189945737dce216c3d8112e86aa4da37786275df). There are no API keys to supply. Yaps handles local processing and feature model downloads. Yaps 2.3.124 is only the credential-free account-check floor; individual tools can require a newer app.
+The runtime is pinned to [yaps-cursor-runtime@0.3.0](https://www.npmjs.com/package/yaps-cursor-runtime/v/0.3.0). There are no API keys to supply. Yaps handles local processing and feature model downloads. Yaps 2.3.124 is only the credential-free account-check floor; individual tools can require a newer app.
 
 ## Scope and validation
 
